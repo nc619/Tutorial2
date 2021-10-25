@@ -8,7 +8,7 @@ public class Drawing extends Canvas {
     Point p=new Point(200,200);
     Color c=new Color(0x992266);
     int rad=50;
-    private Circle circle1 = new Circle(p, c, 50);
+    private Circle circle1 = new Circle(p, c, rad);
     private Frame f;
 
     // The constructor
